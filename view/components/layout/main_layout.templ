@@ -1,0 +1,18 @@
+package layout
+
+templ MainLayout() {
+	<html lang="en">
+		<head>
+			<meta charset="utf-8"/>
+			<title>JXChat</title>
+			<link href="/assets/styles.css" rel="stylesheet"/>
+			<script src="/assets/htmx/htmx.min.js"></script>
+			<script src="/assets/htmx/htmx-multi-swap.js"></script>
+			<script src="/assets/htmx/htmx-ws.js"></script>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		</head>
+		<body>
+			{ children... }
+		</body>
+	</html>
+}
